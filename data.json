@@ -5,45 +5,45 @@
             "project_name" : "Random Quote Generator",
             "description" : "Simple random quote generator that will automatically display a new quote after a given period of time.",
             "technologies" : ["JavaScript", "CSS", "HTML"],
-            "live-link" : "",
+            "live_link" : "https://jareeh.github.io/TechDegree-Project-1/",
             "github_link" : "https://github.com/jareeh/TechDegree-Project-1.git",
-            "image_urls" : ""
+            "image_urls" : ["/static/img/0/1.png", "/static/img/0/2.png"]
         },
         {
             "id" : "1",
             "project_name" : "Simple Pagination and Filtering",
             "description" : "Display a data structure of profiles using pagination, and added filtering functionality so that the pagination can dynamically update.",
             "technologies" : ["JavaScript", "CSS", "HTML"],
-            "live-link" : "",
+            "live_link" : "https://jareeh.github.io/TechDegree-Project-2/",
             "github_link" : "https://github.com/jareeh/TechDegree-Project-2.git",
-            "image_urls" : ""
+            "image_urls" : ["/static/img/1/1.png", "/static/img/1/2.png", "/static/img/1/3.png"]
         },
         {
             "id" : "2",
             "project_name" : "Form Validator",
             "description" : "Add non-obtrusive JavaScript to validate a form, and have fields dynamically respond to form interaction.",
             "technologies" : ["JavaScript", "CSS", "HTML"],
-            "live-link" : "",
+            "live_link" : "https://jareeh.github.io/TechDegree-Project-3/",
             "github_link" : "https://github.com/jareeh/TechDegree-Project-3.git",
-            "image_urls" : ""
+            "image_urls" : ["/static/img/2/1.png", "/static/img/2/2.png", "/static/img/2/3.png"]
         },
         {
             "id" : "3",
             "project_name" : "Phrase Hunter",
             "description" : "Use OOP to create a hangman-style, user-interactive game, where scoring, game state, and various forms of user input are all implemented.",
             "technologies" : ["OOP JavaScript", "CSS", "HTML"],
-            "live-link" : "",
+            "live_link" : "https://jareeh.github.io/TechDegree-Project-4/",
             "github_link" : "https://github.com/jareeh/TechDegree-Project-4.git",
-            "image_urls" : ""
+            "image_urls" : ["/static/img/3/1.png", "/static/img/3/2.png", "/static/img/3/3.png"]
         },
         {
             "id" : "4",
             "project_name" : "Making API Calls",
             "description" : "Made an API call, and displayed searchable/filterable profile data with dynamic modals.",
             "technologies" : ["Fetch API", "JavaScript", "CSS", "HTML"],
-            "live-link" : "",
+            "live_link" : "https://jareeh.github.io/TechDegree-Project-5/",
             "github_link" : "https://github.com/jareeh/TechDegree-Project-5.git",
-            "image_urls" : ""
+            "image_urls" : ["/static/img/4/1.png", "/static/img/4/2.png", "/static/img/4/3.png", "/static/img/4/4.png"]
         }
     ]
 }

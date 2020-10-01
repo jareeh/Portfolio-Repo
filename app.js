@@ -9,7 +9,7 @@ app.use('/static', express.static('public'));
 
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { projects });
 });
 
 app.get('/about', (req, res) => {
@@ -17,7 +17,6 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
-    console.log(`Project ${req.params.id} called`);
     if(projects[req.params.id]){
         res.render('project', { project: projects[req.params.id] }); 
     }
@@ -30,7 +29,14 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-
+    res.locals.error = err;
+    res.status = err.status;
+    if(err.status === 404){
+        res.render('page-not-found', { err });
+    } else {
+        err.message = 'Server Error'
+        res.render('error', { err });
+    }
 });
 
 
