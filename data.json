@@ -1,0 +1,49 @@
+{
+    "projects" : [
+        {
+            "id" : "0",
+            "project_name" : "Random Quote Generator",
+            "description" : "",
+            "technologies" : "Vanilla JS",
+            "live-link" : "",
+            "github_link" : "",
+            "image_urls" : ""
+        },
+        {
+            "id" : "1",
+            "project_name" : "Simple Pagination and Filtering",
+            "description" : "",
+            "technologies" : "Vanilla JS",
+            "live-link" : "",
+            "github_link" : "",
+            "image_urls" : ""
+        },
+        {
+            "id" : "2",
+            "project_name" : "Form Validator",
+            "description" : "",
+            "technologies" : "Vanilla JS",
+            "live-link" : "",
+            "github_link" : "",
+            "image_urls" : ""
+        },
+        {
+            "id" : "3",
+            "project_name" : "Phrase Hunter",
+            "description" : "",
+            "technologies" : "",
+            "live-link" : "",
+            "github_link" : "",
+            "image_urls" : ""
+        },
+        {
+            "id" : "4",
+            "project_name" : "Making API Calls",
+            "description" : "",
+            "technologies" : "",
+            "live-link" : "",
+            "github_link" : "",
+            "image_urls" : ""
+        }
+    ]
+}
