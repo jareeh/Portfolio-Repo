@@ -3,46 +3,46 @@
         {
             "id" : "0",
             "project_name" : "Random Quote Generator",
-            "description" : "",
-            "technologies" : "Vanilla JS",
+            "description" : "Simple random quote generator that will automatically display a new quote after a given period of time.",
+            "technologies" : ["JavaScript", "CSS", "HTML"],
             "live-link" : "",
-            "github_link" : "",
+            "github_link" : "https://github.com/jareeh/TechDegree-Project-1.git",
             "image_urls" : ""
         },
         {
             "id" : "1",
             "project_name" : "Simple Pagination and Filtering",
-            "description" : "",
-            "technologies" : "Vanilla JS",
+            "description" : "Display a data structure of profiles using pagination, and added filtering functionality so that the pagination can dynamically update.",
+            "technologies" : ["JavaScript", "CSS", "HTML"],
             "live-link" : "",
-            "github_link" : "",
+            "github_link" : "https://github.com/jareeh/TechDegree-Project-2.git",
             "image_urls" : ""
         },
         {
             "id" : "2",
             "project_name" : "Form Validator",
-            "description" : "",
-            "technologies" : "Vanilla JS",
+            "description" : "Add non-obtrusive JavaScript to validate a form, and have fields dynamically respond to form interaction.",
+            "technologies" : ["JavaScript", "CSS", "HTML"],
             "live-link" : "",
-            "github_link" : "",
+            "github_link" : "https://github.com/jareeh/TechDegree-Project-3.git",
             "image_urls" : ""
         },
         {
             "id" : "3",
             "project_name" : "Phrase Hunter",
-            "description" : "",
-            "technologies" : "",
+            "description" : "Use OOP to create a hangman-style, user-interactive game, where scoring, game state, and various forms of user input are all implemented.",
+            "technologies" : ["OOP JavaScript", "CSS", "HTML"],
             "live-link" : "",
-            "github_link" : "",
+            "github_link" : "https://github.com/jareeh/TechDegree-Project-4.git",
             "image_urls" : ""
         },
         {
             "id" : "4",
             "project_name" : "Making API Calls",
-            "description" : "",
-            "technologies" : "",
+            "description" : "Made an API call, and displayed searchable/filterable profile data with dynamic modals.",
+            "technologies" : ["Fetch API", "JavaScript", "CSS", "HTML"],
             "live-link" : "",
-            "github_link" : "",
+            "github_link" : "https://github.com/jareeh/TechDegree-Project-5.git",
             "image_urls" : ""
         }
     ]
