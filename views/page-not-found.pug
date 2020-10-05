@@ -1,6 +1,10 @@
 extends layout.pug
 
 block content
-    h1= err.message
-    h2= err.status
-    //pre= err.stack
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Click to go back home where it's safe
+    article.grid-container.portfolio-intro
+        h1 Uh oh! This link path doesn't lead to a known page :(
+        h3 Error Message: #{err.message}
+        h4 Status: #{err.status}
+        //pre= err.stack

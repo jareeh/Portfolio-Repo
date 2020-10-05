@@ -532,6 +532,7 @@ textarea {
 .grid-x {
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10px;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
 

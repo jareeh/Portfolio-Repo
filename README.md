@@ -1,0 +1,12 @@
+Styling changes:
+    - added spacing under header div on project page
+    - changed color of left portfolio banner
+        - changed color/text of learn more to about me and lighter color
+    - opted for more portrait profile picture
+    - added slight grow animation to project tiles on index page
+    - added box shadow to projects
+    - centered text on index page
+    - made technologies li's larger on project page
+    - made technologies h6 larger font size
+    - changed letter spacing of h6
+    - center alignment on left pane
