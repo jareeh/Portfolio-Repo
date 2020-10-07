@@ -19,6 +19,11 @@ app.get('/about', (req, res) => {
 app.get('/projects/:id', (req, res) => {
     if(projects[req.params.id]){
         res.render('project', { project: projects[req.params.id] }); 
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = `Looks like the project you were looking for doesn't exist.`
+        next(err);
     }
 });
 
@@ -29,14 +34,17 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status = err.status;
+    // res.locals.error = err;
+    // res.status = err.status;
     if(err.status === 404){
         res.render('page-not-found', { err });
+        console.log('404 error called');
     } else {
+        err.status = err.status || 500;
         err.message = 'Server Error'
         res.render('error', { err });
+        console.log('Global error called')
     }
 });
 
-app.listen(3000);
+app.listen(3001);
