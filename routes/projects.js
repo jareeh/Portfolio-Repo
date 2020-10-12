@@ -24,28 +24,4 @@ router.get('/:id', (req, res, next) => {
     }
 });
 
-  
-  /* GET individual quote route */
-//   router.get('/:id', (req, res, next) => {
-  
-//     // Log quote handler indication
-//     console.log(`Quote ${req.params.id} route called`);
-  
-//     /* TODO 3: Check if the requested quote exists 
-//         - If quote exists, render the 'quote' view with the quote
-//         - Else:
-//           * Create a new 404 error
-//           * Provide an error message
-//           * Forward the error to the global error handler
-//     */
-//     if (projects[req.params.id]) {
-//       res.render('project', { project: projects[req.params.id] });
-//     } else {
-//       const err = new Error();
-//       err.status = 404;
-//       err.message = `Looks like the project you requested doesn't exist.`
-//       next(err);
-//     }
-//   });
-
 module.exports = router;

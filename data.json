@@ -44,6 +44,15 @@
             "live_link" : "https://jareeh.github.io/TechDegree-Project-5/",
             "github_link" : "https://github.com/jareeh/TechDegree-Project-5.git",
             "image_urls" : ["/static/img/4/1.png", "/static/img/4/2.png", "/static/img/4/3.png", "/static/img/4/4.png"]
+        },
+        {
+            "id" : "5",
+            "project_name" : "React Gallery App + API Call",
+            "description" : "Made a SPA React gallery app, with a very modular, component-minded approach, making an API call to Flikr's API.",
+            "technologies" : ["React", "Axios", "JavaScript", "CSS", "HTML"],
+            "live_link" : " https://jareeh.github.io/react-gallery-app-V2/",
+            "github_link" : "https://github.com/jareeh/react-gallery-app-V2",
+            "image_urls" : ["/static/img/5/1.png", "/static/img/5/2.png", "/static/img/5/3.png", "/static/img/5/4.png"]
         }
     ]
 }
