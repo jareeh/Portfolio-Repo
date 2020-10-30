@@ -50,8 +50,8 @@
             "project_name" : "React Gallery App + API Call",
             "description" : "Made a SPA React gallery, with a very modular, component-minded approach, making an API call to Flikr's API.",
             "technologies" : ["React", "Axios", "JavaScript", "CSS", "HTML"],
-            "live_link" : " https://jareeh.github.io/react-gallery-app-V2/",
-            "github_link" : "https://github.com/jareeh/react-gallery-app-V2",
+            "live_link" : " https://jareeh.github.io/react-gallery-app/",
+            "github_link" : "https://github.com/jareeh/react-gallery-app",
             "image_urls" : ["/static/img/5/1.png", "/static/img/5/2.png", "/static/img/5/3.png", "/static/img/5/4.png"]
         }
     ]
