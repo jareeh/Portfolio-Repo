@@ -7,7 +7,11 @@
 			"technologies": ["React", "Axios", "JavaScript", "CSS", "HTML"],
 			"live_link": " https://jareeh.github.io/Jefflix/",
 			"github_link": "https://github.com/jareeh/Jefflix",
-			"image_urls": []
+			"image_urls": [
+				"/static/img/0/1.png",
+				"/static/img/0/2.png",
+				"/static/img/0/3.png"
+			]
 		},
 		{
 			"id": "1",
